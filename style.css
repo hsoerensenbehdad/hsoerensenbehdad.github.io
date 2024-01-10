@@ -1,0 +1,22 @@
+body{
+    background-color: #D9D9D9;
+}.containerFlexy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: dotted orangered;
+}
+.light{
+    background-color: #D9D9D9;
+}
+.dark{
+    background-color: #1E1C1B;
+    color: white;
+}
