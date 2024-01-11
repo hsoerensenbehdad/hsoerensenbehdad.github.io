@@ -95,6 +95,6 @@ i{
       transform: translateY(0);
     }
     100% {
-      transform: translateY(-100px);
+      transform: translateY(-250px);
 }
 }
