@@ -5,30 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portefølje!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="containerFlexy">
-        <div class="navBar">
-            <ul>
-            <button>hjem</button>
-            <button>sopranos</button>
-            <button class="light">light mode</button>
-            <button class="dark">dark mode</button>
-            </ul>
+        <div class="navbar">
+            <div id="logo">
+                <img src="blonded.png">
+            </div>
+            <div id="links">
+                <ul>
+                    <li><a href="/Chapter4/4C/portfolio/index.html">hjem</a></li>
+                    <li><a href="news.asp">sopranos</a></li>
+                    <button class="light">light mode</button>
+                    <button class="dark">dark mode</button>
+                </ul>
+            </div>
         </div>
         <h1>Herman Sørensen Behdad</h1>
         <i>Portefølje.</i>
+        <div id="ball1">
+            <div class="ball2"></div>
+        </div>
+        <div id="globul">   
+            <img src="blonded.png">
+        </div>
         <div class="dynamic-content">
             <p id="dynamic-text"></p>
           </div>
     </div>
     <div class="containerGridy">
-        <h1>HERMIE:</h1>
-        <h2></h2>
+        <div id="row1column1">HERMIE:</div> 
+        <div class="selfie"><img src="/Chapter4/4C/portfolio/WIN_20240112_09_58_40_Pro.jpg"></div>
         <div class="ball"></div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, veniam temporibus iure expedita in aperiam doloribus autem laboriosam vitae! Doloremque et magni doloribus eum adipisci.</p>
-        <h2>Portefølje:</h2>
-        <p></p>
+        <div id="row2column1"> ipsum dolor, sit amet consectetur adipisicing elit. Repellendus, veniam temporibus iure expedita in aperiam doloribus autem laboriosam vitae! Doloremque et magni doloribus eum adipisci.</div>
+        <div id="row2column2">Portefølje:</div>
+        <div id="nate">
+            <img src="/Chapter4/4C/portfolio/750x1500.png">
+        </div>
         <p></p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et suscipit perferendis dolore fuga. Exercitationem, quas corporis beatae dolor deserunt autem quam amet corrupti, repudiandae blanditiis, eos commodi similique veniam assumenda perferendis ut aliquid maiores optio? Accusantium culpa ipsam, dolorum, consequuntur, nihil veritatis excepturi dicta officia aspernatur reiciendis ea nulla perferendis.</p>
         <h2>CV:</h2>
@@ -36,14 +52,14 @@
         <p></p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem odio, quidem iusto quam ducimus omnis consectetur placeat ipsam architecto ex tempora sequi illo inventore repellat vero dicta repellendus eligendi asperiores voluptates vel a illum nemo. Possimus explicabo tenetur quasi voluptatibus id ipsa, deleniti beatae harum.</p>
     </div>
-
-    <!---musikk og film?-->
     <div class="footer">
         <ul>
             <li><a href="default.asp">hjem</a></li>
             <li><a href="news.asp">sopranos</a></li>
             <li><a href="contact.asp">3</a></li>
             <li><a href="about.asp">4</a></li>
+            <li><a href="#" id="lightModeLink">Light Mode</a></li>
+            <li><a href="#" id="darkModeLink">Dark Mode</a></li>
           </ul>
     </div>
     <script src="java.js"></script>
