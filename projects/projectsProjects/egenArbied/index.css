@@ -1,0 +1,42 @@
+body{
+    background: repeating-linear-gradient(to bottom, #C9082A, #17408B, #C9082A);
+    backdrop-filter: blur(1px);
+    text-align: center;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: crosshair;
+    color: white;
+}
+text{
+    border: black;
+}
+input{
+    padding: 10px;
+}
+img{
+    filter: saturate(10px);
+    width: 44vw;
+    height: 18vh;
+}
+img:hover{
+    width: 98vw;
+    height: 99vh;
+}
+p{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 2em;
+    color: yellow;
+}
+button{
+    font-size: 2em;
+    background-color: orangered ;
+}
+button:hover{
+    font-size: 2.1em;
+    transition: width 2s;
+    background-color: black;
+    cursor: all-scroll;
+    color: yellow;
+}

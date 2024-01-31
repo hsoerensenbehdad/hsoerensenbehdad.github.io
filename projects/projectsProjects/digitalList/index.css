@@ -1,0 +1,88 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(parchment.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  color: white;
+  font-size: 1.25em;
+}
+h1{
+  text-decoration: overline;
+}
+#buttonClick{
+  font-size: 2em;
+  padding: 5px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: dashed white;
+}
+.sort{
+  display: flex;
+  flex-direction: row;
+  grid-row: auto;    
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 1%;
+  background-color: black;
+}
+.sort button{
+  font-size: 2em;
+}
+.color{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border:thin white;
+  background-color: black;
+}
+#colorButton {
+  margin: 5px;
+  padding: 10px;
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#colorButton:hover {
+  background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  font-size: 1.35em;
+}
+.orangeish-text{
+  background-color:  #e67e22;
+}
+.number{
+  flex-direction: column;
+  
+}
+.listItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  font-size: 2em; 
+  border: black solid;
+}
+.text{
+  background-color: black;
+}
+.author{
+  background-color: black;
+}
+.date{
+  background-color: black;
+}
+#orangeish{
+  background-color:  #e67e22;
+} 
+#listcontainer{
+font-size: 250%;
+}

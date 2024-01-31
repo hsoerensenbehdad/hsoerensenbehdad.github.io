@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sitat-Maker 2000</h1>
+    <!--ja hva den sier, velg bakgrunnsfarge for sitat. fordi jeg ville vise fram radio knowledge-->
+    <h3>Velg bakgrunnsfarge</h3>
+    <div class="color">
+      <label for="color">pinkish -></label>
+      <input type="radio" name="color" value="lightcoral" id="pinkish">
+      <label for="color">orangeish -></label>
+      <input type="radio" name="color" value="#e67e22" id="orangeish"> 
+      <label for="color">blackish -></label>
+      <input type="radio" name="color" value="#2c3e50" id="blackish"> 
+      <label for="color">whitish -></label>
+      <input type="radio" name="color" value="#ecf0f1" id="whitish">
+    </div>
+    
+    <!-- bruk bakgrunnsfarge-->
+    <button type="buttonColor" id="colorButton"> Farge! </button>
+
+
+    <h3>Velg sitat</h3>
+    <div class="text">
+      <label for="quote">Sitat:</label>
+      <input type="text" name="quote" value="" id="quote"> 
+    </div>
+
+    <h3>Velg forfatter</h3>
+    <div class="author">
+      <label for="author">Forfatter:</label>
+      <input type="text" name="author" value="" id="author"> 
+    </div>
+    
+    <h3>Velg dato</h3>
+    <div class="date">
+      <label for="date">Dato:</label>
+      <input type="date" name="date" value="" id="date"> 
+    </div>
+    
+    <button id="buttonClick">Klikk!</button>
+
+  <div class="sort">
+    <h2>Sorter etter:</h2>
+    <label for="sortQuote"></label>
+    <button type="buttonQuote" id="sortQuote">Sitat</button>
+
+    <label for="sortAuthor"></label>
+    <button type="buttonAuthor" id="sortAuthor">Forfatter</button>
+    
+    <label for="sortDate"></label>
+    <button type="buttonDate" id="sortDate">Dato</button>
+    
+  </div>
+  <h2>Sitatliste:</h2>
+  <div id="listcontainer" >
+
+  </div>  
+</body>
+<script src="index.js"></script>
+</html>
