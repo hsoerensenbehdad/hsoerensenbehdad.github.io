@@ -416,7 +416,23 @@ i{
 .containerGridy img{
     height: 100vh;
 }
+.selfie {
+    display: flex;
+    flex-direction: row;
+    border:  solid #E8AA74 3vw;
+    margin: 50px;
+    justify-content: center;
+}
+
+.selfie img {
+    height: 250px;
+    width: auto; /* Allow the width to adjust proportionally based on the height */
+    margin-right: 10px; /* Add some spacing between the images */
+}
 @media only screen and (max-width: 768px) {
+    body{
+        font-size: 1.1em;
+    }
     .containerFlexy {
         padding: 20px;
     }
@@ -460,25 +476,25 @@ i{
     #globul img{
         max-width: 100vw;
     }
+    .navbar{
+        position: sticky;
+    }
     .navbar li {
         display: block;
         margin-right: 0;
     }
+    .selfie  {
+        flex-direction: column;
+    }
     .dynamic-content {
         font-size: 1.5em;
     }
-    .containerGridy{max-width: 100vw;}
-}
-.selfie {
-    display: flex;
-    flex-direction: row;
-    border:  solid #E8AA74 3vw;
-    margin: 50px;
-    justify-content: center;
+    .peak img{
+        width: 100vw;
+    }
+    .containerGridy {
+    max-width: 100vw;
+    grid-template-columns: repeat(1, 1fr);
+    }
 }
 
-.selfie img {
-    height: 250px;
-    width: auto; /* Allow the width to adjust proportionally based on the height */
-    margin-right: 10px; /* Add some spacing between the images */
-}
